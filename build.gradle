@@ -1,5 +1,5 @@
 plugins {
-    id "net.serenity-bdd.serenity-gradle-plugin" version "3.5.1"
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.5.0"
     id 'java'
     id 'eclipse'
     id 'idea'
@@ -11,8 +11,8 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 16
+targetCompatibility = 16
 
 ext {
     slf4jVersion = '1.7.7'
@@ -36,7 +36,6 @@ dependencies {
 }
 
 test {
-    useJUnitPlatform()
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }
