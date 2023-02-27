@@ -18,8 +18,8 @@ public class SeleccionarHospedajeTask {
                 Click.on(BUT_DESTINO),
                 Enter.theValue(destino).into(DESTINO).thenHit(Keys.ENTER),
                 Click.on(BUT_FECHA),
-                Click.on(FECHA_1),
-                Click.on(FECHA_2),
+                Click.on(FECHA_1.of("2")),
+                Click.on(FECHA_2.of("16")),
                 Click.on(FECHA_LISTO),
                 Click.on(BUSCAR)
         );

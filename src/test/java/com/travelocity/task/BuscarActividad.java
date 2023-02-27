@@ -19,8 +19,8 @@ public class BuscarActividad {
                 Click.on(BUT_ACTIVIDAD_ORIGEN),
                 Enter.theValue(origen).into(BUT_ACTIVIDAD_ORIGEN2).thenHit(Keys.ENTER),
                 Click.on(BUT_FECHA),
-                Click.on(FECHA_1),
-                Click.on(FECHA_2),
+                Click.on(FECHA_1.of("18")),
+                Click.on(FECHA_2.of("25")),
                 Click.on(FECHA_LISTO),
                 Click.on(BUSCAR)
         );

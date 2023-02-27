@@ -21,9 +21,10 @@ public class BuscarVuelo {
                 Click.on(BUT_VUELO_DESTINO),
                 Enter.theValue(destino).into(BUT_VUELO_DESTINO2).thenHit(Keys.ENTER),
                 Click.on(BUT_FECHA),
-                Click.on(FECHA_1),
-                Click.on(FECHA_2),
+                Click.on(FECHA_1.of("10")),
+                Click.on(FECHA_2.of("20")),
                 Click.on(FECHA_LISTO),
+                Click.on(BUT_VUELO_CHECKBOX),
                 Click.on(BUSCAR)
         );
     }
