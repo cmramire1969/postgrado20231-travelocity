@@ -1,5 +1,5 @@
 # language: es
-Característica: Paquetes
+Característica: Vuelos
 
   Escenario: Buscar un vuelo de ida y regreso
     Cuando "Carlos Mario" busca un vuelo de viaje desde "Medellin" hacia "Maiami"

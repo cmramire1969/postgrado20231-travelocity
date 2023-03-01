@@ -16,6 +16,7 @@ public class BusquedaPrincipalPage {
     public static Target BUT_ORIGEN = Target.the("boton origen").locatedBy("//button[@data-stid='location-field-origin-menu-trigger']");
     public static Target ORIGEN = Target.the("origen").locatedBy("//input[@id='location-field-origin']");
 
+    // busqueda de Actividad
     public static Target BUT_PAQUETE_CHECKBOX = Target.the("boton fecha in").locatedBy("//input[@id=\"package-partial-stay\"]");
     // busqueda de Actividad
    public static Target BUSQUEDA_ACTIVIDAD = Target.the("boton buscar actividad").locatedBy("//span[text()='Actividades']/..");
@@ -24,7 +25,7 @@ public class BusquedaPrincipalPage {
 
     public static Target BUT_ACTIVIDAD_ORIGEN2 = Target.the("origen").locatedBy("//input[@id='location-field-location']");
 
-    // busqueda de vuelos
+    // Busqueda de Vuelos
     public static Target BUSQUEDA_VUELO = Target.the("boton buscar actividad").locatedBy("//span[text()='Vuelos']/..");
     public static Target BUT_VUELO_ORIGEN = Target.the("boton origen").locatedBy("//button[@data-stid='location-field-leg1-origin-menu-trigger']");
     public static Target BUT_VUELO_ORIGEN2 = Target.the("origen").locatedBy("//input[@id='location-field-leg1-origin']");
@@ -32,7 +33,7 @@ public class BusquedaPrincipalPage {
     public static Target BUT_VUELO_DESTINO2 = Target.the("busqueda button destino de vuelo").locatedBy("//input[@id='location-field-leg1-destination']");
     public static Target BUT_VUELO_CHECKBOX = Target.the("boton fecha in").locatedBy("//input[@id=\"add-car-checkbox\"]");
 
-    // busqueda de autos
+    // Busqueda de Autos
     public static Target BUSQUEDA_AUTO = Target.the("boton buscar auto").locatedBy("//span[text()='Autos']/..");
     public static Target BUT_AUTO_ORIGEN = Target.the("boton origen").locatedBy("//button[@data-stid='location-field-locn-menu-trigger']");
     public static Target BUT_AUTO_ORIGEN2 = Target.the("origen").locatedBy("//input[@id='location-field-locn']");
